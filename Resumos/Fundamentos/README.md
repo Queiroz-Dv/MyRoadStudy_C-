@@ -1,6 +1,6 @@
 # 🔮 Fundamentos do CSharp
 
-# Bases Estruturais
+## Bases Estruturais
 
 ### Namespaces
 
@@ -61,7 +61,7 @@ const var IDADE_MINIMA; // Errado
 
 - É comum o uso de constantes com letras maiúsculas.
 
-# Tipos Primitivos
+## Tipos Primitivos
 
 São conhecidos como _built-in types_, são tipos base cujo outros tipos irão derivar. Além disso são chamados de _Tipos de Valor_, pois armazenam o valor e não a referência para um item na memória.
 São classificados em:
@@ -115,7 +115,7 @@ Tipo genérico que recebe qualquer valor ou objeto. Ele não possui ajuda do int
 
 Significa vazio, nada. Além disso é diferente de zero ou uma string vazia. Todo tipo primitivo ou complexo pode receber o valor null.
 
-# Conversões
+## Conversões
 
 É comum precisarmos transformar um dado de tipo X para tipo Y. Neste caso, existem dois tipos de conversões que são as implícitas e as explícitas.
 
@@ -164,7 +164,7 @@ int inteiro = Convert.ToInt32("100");
 
 ```
 
-# Operadores
+## Operadores
 
 ### Operadores Aritméticos
 
@@ -199,3 +199,69 @@ Podemos comparar qualquer tipo de dado, a comparação se,pre retorna _verdadeir
 - && deve atender todas as condições
 - || se atender uma condição já retorna verdadeiro
 - ! negação que inverte os valores.
+
+## Funções ou Métodos
+
+ Podemos separar nosso programa em funções que também conhecidos como métodos. O _main_ é um exemplo de método, pois possui um retorno, um nome e parâmetros.
+ Está composição é chamada de _assinatura_.
+
+Exemplo de declaração do método:
+
+```c#
+void MeuMetodo()
+{
+    Console.WriteLine("CSharp é legal!");
+}
+```
+
+Exemplo de invocação do método:
+
+```c#
+static void Main(string[] args)
+{
+    MeuMetodo();
+}
+```
+
+Exemplo de método com retorno por parâmetros:
+
+```c#
+static string RetornaNome(string nome, string sobrenome)
+{
+    return nome + " " + sobrenome;
+}
+```
+
+Exemplo de invocação do método com retorno:
+
+```c#
+static void Main(string[] args)
+{
+    MeuMetodo();
+    string nomeCompleto = RetornaNome("Eduardo", "Queiroz");
+}
+```
+
+## Tipos de Referência e Tipos de Valor
+
+### Headp e Stack
+
+ A memória é dividida em duas partes, Heap e Stack.
+ Heap serve para _armazenar dados_ já a Stack _armazena as referências_ para os dados
+
+### Value Types
+
+Quando armazenamos um valor, a memória é alocada então, nossa variável acessa este dado diretamente.Se assimilarmos uma variável do tipo de valor a outra o valor será copiado.
+
+### Reference Types
+
+ Armazenam o endereço do objeto que contém os dados, ou seja, eles não armazenam os dados em si. São armazenados em um local da memória chamado de Heap.
+ Ao assimilar uma variável ele criará uma referência que aponta para a mesma informação. Quando não são mais utilizados são marcados para exclusão.
+
+## Structs
+
+São tipos de dados estruturados, neste caso é apenas o esqueleto. Também pode armazenar apenas outros tipos de dados e é definido pela palavra _struct_. Eles são um tipo de valor, ou seja, eles ficam na stack.
+
+## Enums
+
+São usados para fornecer uma melhor visualização do código. Substituiem o uso de inteiros, além disso são usados em lista curtas e em dados fixos. Começam com a letra E maiúscula acompanhado do nome do enumerador.
