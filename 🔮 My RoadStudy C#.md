@@ -1,5 +1,10 @@
 # 🔮 My CSharp RoadStudy
 
+### Objetivos e Metas
+Cada pasta trata-se de um resumo e estudo de caso feito na linguagem CSharp. O repositório estará em fase de desenvolvimento enquanto houver conteúdos a serem tratados. Meu intuito é compartilhar com a comunidade informações de forma simplificada e também reforçar meu aprendizado em programação com a linguagem CSharp.
+
+Fique a vontade para explorar cada pastinha e projetos que já fiz por aqui! 😍
+
 ## Linguagens de Programação
 
 É a forma como dizemos para o computador executar algo. Computadores usam apenas a linguagem binária.

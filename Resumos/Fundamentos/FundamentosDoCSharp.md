@@ -1,7 +1,5 @@
 # 🔮 Fundamentos do CSharp
 
-Este markdown trata-se sobre meus resumos de estudos sobre a linguagem CSharp. cada markdown descreverá uma particularidade do CSharp
-
 ## Namespaces
 
 Enquanto as pastas são as divisões físicas, os namespaces são as divisões lógicas. O ideal é que tenha apenas um namespace e uma classe por arquivo.
@@ -90,3 +88,27 @@ São números que exigem uma maior precisão, ou seja, com pontuação.
 - float
 - double
 - decimal
+
+### Boolean
+
+ O tipo booliano armazena apenas true ou false e definido pela palavra reservada _bool_. É composto por 8 bit.
+
+### Char
+
+ Utilizado apara aramzenar apenas um caractere no formato Unicode É definido pela palavra reservada _char_. A sua atribuição é dada por aspas simples. É composto por 16 bit.
+
+### String
+
+É utilizado para armazenar uma cadeia de caraceteres, podemos abstrari/pensar nele como uma lista de char. É definidido pela palavra reservada _string_ e sua atribuição é dada por aspas duplas.
+
+### Var
+
+Substitui o nome de um tipo. Será do tipo do primeiro valor em que ocorre sua atribuição. Só podemos usar o _var_ quando já dominamos os tipos primitivos.
+
+### Object
+
+Tipo genérico que recebe qualquer valor ou objeto. Ele não possui ajuda do intelisense(Ajuda dos editores) por ser um tipo desconhecido. Recomenda-se evitar usá-.
+
+### Nullabes Types
+
+Significa vazio, nada. Além disso é diferente de zero ou uma string vazia. Todo tipo primitivo ou complexo pode receber o valor null.
