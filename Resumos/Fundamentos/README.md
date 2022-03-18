@@ -163,3 +163,39 @@ Similar ao parse porém permite converter vários tipos de valor, e não se limi
 int inteiro = Convert.ToInt32("100");
 
 ```
+
+# Operadores
+
+### Operadores Aritméticos
+
+São utilizados os sinais de aritmética para executar operações matemáticas como: soma, subtração, multiplicação e divisão.
+
+### Operadores de Atribuição
+
+Utilizamdos igual para atribuir um valor, porém podemos utilizar igual junto a um operador aritmético.
+
+```c#
+int x = 0;
+x += 5;
+x *= 10;
+x/=2;
+```
+
+### Operadores de Comparação
+
+Podemos comparar qualquer tipo de dado, a comparação se,pre retorna _verdadeiro_ ou _falso_.
+
+== Igual
+!= Diferente
+">" Maior
+"<" Menor
+">=" Maior ou igual  a
+"<=" Menorr ou igual a
+
+### Operadores Lógicos
+
+É utilizado para operações condicionais onde retorna sempre verdadeiro ou falso.
+
+- && deve atender todas as condições
+- || se atender uma condição já retorna verdadeiro
+- ! negação que inverte os valores.
