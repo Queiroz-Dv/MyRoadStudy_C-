@@ -3,3 +3,4 @@ O objetivo deste repositório é simplificar e resumir os assuntos abordados pel
 
 ## Indíces e Atalhos
 [Projeto de Calculadora](https://github.com/Queiroz-Dv/ProjectCalculator) 
+[Projeto de Cronômetro](https://github.com/Queiroz-Dv/ProjectStopWatch_CSharp)
