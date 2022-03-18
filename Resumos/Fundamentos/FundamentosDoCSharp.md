@@ -73,4 +73,20 @@ São classificados em:
 
 #### Byte
 
-O typo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_. 
+O typo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_.
+
+### Números Inteiros
+
+Numeros inteiros, ou sejam sem pontuação podem ser definidos pelos tipos:
+
+- short / ushort
+- int / uint
+- long / ulong
+
+### Números Reais
+
+São números que exigem uma maior precisão, ou seja, com pontuação.
+
+- float
+- double
+- decimal
