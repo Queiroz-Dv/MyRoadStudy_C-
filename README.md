@@ -5,6 +5,11 @@ Cada pasta trata-se de um resumo e estudo de caso feito na linguagem CSharp. O r
 
 Fique a vontade para explorar cada pastinha e projetos que já fiz por aqui! 😍
 
+### Projetos Realizados
+- [Projeto de Calculadora](https://github.com/Queiroz-Dv/ProjectCalculator) 
+- [Projeto de Cronômetro](https://github.com/Queiroz-Dv/ProjectStopWatch_CSharp)
+
+
 ## Linguagens de Programação
 
 É a forma como dizemos para o computador executar algo. Computadores usam apenas a linguagem binária.
