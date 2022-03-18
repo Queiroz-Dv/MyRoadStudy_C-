@@ -1,6 +1,8 @@
 # 🔮 Fundamentos do CSharp
 
-## Namespaces
+# Bases Estruturais
+
+### Namespaces
 
 Enquanto as pastas são as divisões físicas, os namespaces são as divisões lógicas. O ideal é que tenha apenas um namespace e uma classe por arquivo.
 Um namespace pode ser reutilizado e pode estar presente em diversos arquivos.
@@ -15,7 +17,7 @@ namespace Persistence
 
 ```
 
-## Usings
+### Usings
 
 As importações definem as bibliotecas que nposso programa irá utilizar.
 Para isso utilizamos a palavra reservada _using_.
@@ -59,7 +61,7 @@ const var IDADE_MINIMA; // Errado
 
 - É comum o uso de constantes com letras maiúsculas.
 
-## Tipos Primitivos
+# Tipos Primitivos
 
 São conhecidos como _built-in types_, são tipos base cujo outros tipos irão derivar. Além disso são chamados de _Tipos de Valor_, pois armazenam o valor e não a referência para um item na memória.
 São classificados em:
@@ -69,7 +71,7 @@ São classificados em:
 - Estruturas
 - Tipos Nulos
 
-#### Byte
+### Byte
 
 O typo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_.
 
@@ -112,3 +114,52 @@ Tipo genérico que recebe qualquer valor ou objeto. Ele não possui ajuda do int
 ### Nullabes Types
 
 Significa vazio, nada. Além disso é diferente de zero ou uma string vazia. Todo tipo primitivo ou complexo pode receber o valor null.
+
+# Conversões
+
+É comum precisarmos transformar um dado de tipo X para tipo Y. Neste caso, existem dois tipos de conversões que são as implícitas e as explícitas.
+
+### Conversão Implicita
+
+As implícitas são conversões que podem ser executadas com passagem de dados.
+
+Exemplo:
+
+```c#
+float valor = 25.8f;
+int outro = 25;
+
+valor = outro; // Conversão implícita 
+
+```
+
+A conversão só ocorre se os tipos forem compatíveis.
+
+### Conversão Explícita
+
+Ocorre quando os tipos não são compatíveis.
+
+```c#
+int inteiro = 100
+uint inteiroSemSinal = (uint) inteiro; // Conversão explícita 
+
+```
+
+### Parse
+
+Método presente em todo tipo primitivo. É usado para converter um caractere ou string para um tipo qualquer.
+O parse neste caso sempre espera uma string..
+
+```c#
+int inteiro = int.Parse("100");
+
+```
+
+### Convert
+
+Similar ao parse porém permite converter vários tipos de valor, e não se limita apenas a string.
+
+```c#
+int inteiro = Convert.ToInt32("100");
+
+```
