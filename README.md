@@ -1,13 +1,14 @@
 # 🔮 My CSharp RoadStudy
 
-### Objetivos e Metas
+### 🐱‍💻 Objetivos e Metas
 Cada pasta trata-se de um resumo e estudo de caso feito na linguagem CSharp. O repositório estará em fase de desenvolvimento enquanto houver conteúdos a serem tratados. Meu intuito é compartilhar com a comunidade informações de forma simplificada e também reforçar meu aprendizado em programação com a linguagem CSharp.
 
 Fique a vontade para explorar cada pastinha e projetos que já fiz por aqui! 😍
 
-### Projetos Realizados
+### ✔ Projetos de Baixa Complexidade
 - [Projeto de Calculadora](https://github.com/Queiroz-Dv/ProjectCalculator) 
 - [Projeto de Cronômetro](https://github.com/Queiroz-Dv/ProjectStopWatch_CSharp)
+- [Projeto de Editor de Texto](https://github.com/Queiroz-Dv/TextEditor)
 
 
 ## Linguagens de Programação
