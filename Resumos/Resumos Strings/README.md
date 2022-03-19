@@ -31,3 +31,10 @@ Exemplo com $ e @ para caracteres especiais:
  var texto = $"O preço do produto é {price} apenas na promoção!";
 
  ```
+
+#### Tópicos para resumir
+
+- Equals
+- StartsWith e EndsWith
+- StringBuilder
+- ToLower e ToUpper
