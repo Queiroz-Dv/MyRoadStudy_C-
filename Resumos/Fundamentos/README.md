@@ -1,4 +1,4 @@
-# 🔮 Fundamentos do CSharp
+# 🐱‍💻 Fundamentos do CSharp
 
 ## Bases Estruturais
 
@@ -14,7 +14,6 @@ namespace Persistence
 {
     public class DataContext : IdentityDbContext<AppUser>
 }
-
 ```
 
 ### Usings
@@ -41,7 +40,6 @@ int idade; // Correto inicia com zero
 int idade = 25; // Correto
 var idade = 25; // Correto
 var idade; // Errado
-
 ```
 
 ### Constantes
@@ -56,7 +54,6 @@ const int IDADE_MINIMA; // Correto inicia com zero
 const int IDADE_MINIMA = 25; // Correto
 const var IDADE_MINIMA = 25; // Correto
 const var IDADE_MINIMA; // Errado
-
 ```
 
 - É comum o uso de constantes com letras maiúsculas.
@@ -77,7 +74,7 @@ O typo byte é utilizado para representar um byte de fato. Em diversos casos pre
 
 ### Números Inteiros
 
-Numeros inteiros, ou sejam sem pontuação podem ser definidos pelos tipos:
+Números inteiros, ou sejam sem pontuação podem ser definidos pelos tipos:
 
 - short / ushort
 - int / uint
@@ -91,17 +88,17 @@ São números que exigem uma maior precisão, ou seja, com pontuação.
 - double
 - decimal
 
-### Boolean
+### Booleanos
 
  O tipo booliano armazena apenas true ou false e definido pela palavra reservada _bool_. É composto por 8 bit.
 
 ### Char
 
- Utilizado apara aramzenar apenas um caractere no formato Unicode É definido pela palavra reservada _char_. A sua atribuição é dada por aspas simples. É composto por 16 bit.
+ Utilizado apara armazenar apenas um caractere no formato Unicode É definido pela palavra reservada _char_. A sua atribuição é dada por aspas simples. É composto por 16 bit.
 
 ### String
 
-É utilizado para armazenar uma cadeia de caraceteres, podemos abstrari/pensar nele como uma lista de char. É definidido pela palavra reservada _string_ e sua atribuição é dada por aspas duplas.
+É utilizado para armazenar uma cadeia de caracteres, podemos abstrair/pensar nele como uma lista de char. É definido pela palavra reservada _string_ e sua atribuição é dada por aspas duplas.
 
 ### Var
 
@@ -119,7 +116,7 @@ Significa vazio, nada. Além disso é diferente de zero ou uma string vazia. Tod
 
 É comum precisarmos transformar um dado de tipo X para tipo Y. Neste caso, existem dois tipos de conversões que são as implícitas e as explícitas.
 
-### Conversão Implicita
+### Conversão Implícita
 
 As implícitas são conversões que podem ser executadas com passagem de dados.
 
@@ -128,9 +125,7 @@ Exemplo:
 ```c#
 float valor = 25.8f;
 int outro = 25;
-
 valor = outro; // Conversão implícita 
-
 ```
 
 A conversão só ocorre se os tipos forem compatíveis.
@@ -142,7 +137,6 @@ Ocorre quando os tipos não são compatíveis.
 ```c#
 int inteiro = 100
 uint inteiroSemSinal = (uint) inteiro; // Conversão explícita 
-
 ```
 
 ### Parse
@@ -152,7 +146,6 @@ O parse neste caso sempre espera uma string..
 
 ```c#
 int inteiro = int.Parse("100");
-
 ```
 
 ### Convert
@@ -161,7 +154,6 @@ Similar ao parse porém permite converter vários tipos de valor, e não se limi
 
 ```c#
 int inteiro = Convert.ToInt32("100");
-
 ```
 
 ## Operadores
@@ -170,9 +162,9 @@ int inteiro = Convert.ToInt32("100");
 
 São utilizados os sinais de aritmética para executar operações matemáticas como: soma, subtração, multiplicação e divisão.
 
-### Operadores de Atribuição
+### Operadores  de  Atribuição
 
-Utilizamdos igual para atribuir um valor, porém podemos utilizar igual junto a um operador aritmético.
+Utilizamos o igual para atribuir um valor, porém podemos utilizar igual junto a um operador aritmético.
 
 ```c#
 int x = 0;
@@ -181,16 +173,18 @@ x *= 10;
 x/=2;
 ```
 
-### Operadores de Comparação
+### Operadores  de  Comparação
 
-Podemos comparar qualquer tipo de dado, a comparação se,pre retorna _verdadeiro_ ou _falso_.
+Podemos comparar qualquer tipo de dado, além disso a comparação sempre retorna _verdadeiro_ ou _falso_.
 
-== Igual
-!= Diferente
-">" Maior
-"<" Menor
-">=" Maior ou igual  a
-"<=" Menorr ou igual a
+| Descrição           | Sinais  |
+| ------------------- | ------- |
+| Igual               | ==      |
+| Diferente           | !=      |
+| Maior e Maior Igual | > e  >= |
+| Menor e Menor Igual | < e  <= |
+
+
 
 ### Operadores Lógicos
 
@@ -244,7 +238,7 @@ static void Main(string[] args)
 
 ## Tipos de Referência e Tipos de Valor
 
-### Headp e Stack
+### Heap e Stack
 
  A memória é dividida em duas partes, Heap e Stack.
  Heap serve para _armazenar dados_ já a Stack _armazena as referências_ para os dados
@@ -264,4 +258,4 @@ São tipos de dados estruturados, neste caso é apenas o esqueleto. Também pode
 
 ## Enums
 
-São usados para fornecer uma melhor visualização do código. Substituiem o uso de inteiros, além disso são usados em lista curtas e em dados fixos. Começam com a letra E maiúscula acompanhado do nome do enumerador.
+São usados para fornecer uma melhor visualização do código. Substituem o uso de inteiros, além disso são usados em lista curtas e em dados fixos. Começam com a letra E maiúscula acompanhado do nome do enumerador.

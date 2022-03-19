@@ -27,7 +27,7 @@ Ao enviar uma instrução para o computador estamos falando em nível de máquin
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Consiste em receber um arquivo de texto e convertê-lo para binário. | Lidos e interpretados por um intérprete. Feito em tempo de execução. |
 
-## Tipagem de Dados
+## Tipos  de  Dados
 
 Também chamadas de fortemente tipadas, pois obrigam a especificar o tipo de dado da informação. Tem uma menor liberdade por outro lado tem maior otimização.  Um tipo de dado define o formato dele.
 
@@ -59,13 +59,13 @@ Código Gerenciado: significa que a sua execução depende de um gerenciador. Ta
 
 - *Class Library*: O resultado final é uma DLL - não possui interface
 
-- *Console Application*: O reusltado final é uma aplicação que roda no terminal.
+- *Console Application*: O resultado final é uma aplicação que roda no terminal.
 
 - *Projeto Web*: ASP.NET WEB, ASP.NET MVC, ASP.NET WebAPI
 
 - *Projetos Testes*: Microsoft Tests
 
-## Comandos principais dotnet
+## Principais comandos .NET
 
 - Para criar um novo projeto console:
 
@@ -101,7 +101,7 @@ dotnet run
 
 É comum termos vários ambientes para nossas aplicações como:
 
-- Desenvvolvimento
+- Desenvolvimento
 - Homologação
 - Produção
 
