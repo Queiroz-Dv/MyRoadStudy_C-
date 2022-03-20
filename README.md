@@ -23,6 +23,10 @@ O processo de tradução se chama compilação. Cada linguagem tem seu compilado
 
 Ao enviar uma instrução para o computador estamos falando em nível de máquina, ou seja, uma linguagem de baixo nível. As linguagens mais modernas são consideradas de alto nível.
 
+As linguagens de Alto Nível estão mais próximas dos programadores do que dos dispositivos, devido à facilidade de entedimento.
+
+Já as linguages de Baixo Nível é mais voltada os dispositovos pois envolve números e letras que são instruções diretas ao dispositivo. 
+
 |                    Linguagens Compiladas                     |                   Linguagens Interpretadas                   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Consiste em receber um arquivo de texto e convertê-lo para binário. | Lidos e interpretados por um intérprete. Feito em tempo de execução. |
@@ -47,8 +51,8 @@ int age = "18"; // Erro
 ### CSharp  Como Primeira Linguagem
 
 - Não é a mais fácil
-- Focada em OOP(Base da programação)
-- OOP te dá a base para aprender coisas novas
+- Focada em POO(Base da programação)
+- POO te dá a base para aprender coisas novas
 - Quanto mais tempo na base, mais fácil aprender coisas novas
 
 ## Como funciona?
