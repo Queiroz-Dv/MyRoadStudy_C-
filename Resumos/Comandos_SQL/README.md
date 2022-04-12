@@ -15,7 +15,8 @@ CREATE DATABASE DatabaseName
 
 ```sql
 CREATE TABLE [Student]
-(	[Id] INT NOT NULL,
+(	
+    [Id] INT NOT NULL,
     [Name] VARCHAR(80) NOT NULL, -- Não pode ser nulo
     [Email] VARCHAR(100) NOT NULL,
     [Birthday] DATETIME NULL, -- Pode ser nulo
@@ -105,5 +106,36 @@ INSERT INTO [Category]([Name]) VALUES('Backend')
 INSERT INTO [Category]([Name]) VALUES('Frontend')
 INSERT INTO [Category]([Name]) VALUES('Mobile')
 INSERT INTO [Category]([Name]) VALUES('FullStack')
+```
+
+#### Atualizando valores
+
+```sql
+UPDATE [Category]
+SET
+    [Nome] = 'Backend'
+WHERE [Id] = 3
+```
+
+#### Deletando valores
+
+```sql
+DELETE FROM
+    [Category]
+WHERE [Id] = 3
+```
+
+#### Junção de Tabelas com a mesma referência(Inner Join)
+
+```sql
+SELECT TOP 100
+    [Couse].[Id],
+    [Course].[Name],
+    [Category].[Id] AS [Category],
+    [Category].[Name]
+FROM
+    [Course]
+    INNER JOIN [Category]
+    ON [Course].[CategoryId] = [Category].[Id]
 ```
 
