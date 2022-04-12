@@ -124,4 +124,4 @@ CREATE TABLE NomeTabela
 
 O index ajuda a organizar os dados, apesar de apresentar a lentidão nos Inserts. Serve para pesquisas massivas em alguma coluna da tabela.
 
-Para um estudo mais detalhado e aprofundado, siga para este outro resumo  com mais conteúdo. [Nome do Link]()
+Para um estudo mais detalhado e aprofundado, siga para este outro resumo  com mais conteúdo. [Resumo de Comandos e Prática](https://github.com/Queiroz-Dv/MyRoadStudy_CSharp/tree/master/Resumos/Comandos_SQL)
