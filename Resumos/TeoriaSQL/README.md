@@ -47,7 +47,7 @@ Exemplos:
   ```plsql
   SELECT
   	IdAluno,
-      Nome
+    Nome
   FROM Aluno    
   ```
 
