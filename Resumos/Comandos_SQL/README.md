@@ -1,6 +1,7 @@
 # 🐱‍💻 Resumo  de   Comandos   SQL
 
 Abaixo está a lista dos comandos e exemplos em SQL que já estudei.
+Aqui está o link de queries para fonte de estudos e testes: [Repositório SQL](https://github.com/Queiroz-Dv/ProjectStudy_SQL)
 
 #### Criar Database
 
