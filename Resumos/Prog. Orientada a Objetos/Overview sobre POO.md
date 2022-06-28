@@ -3,7 +3,7 @@
 ------
 
 POO ou Programação Orientada a objetos é um paradigma da programação, que neste caso, é como estruturamos o nosso código.
-A ideia maio da orientação a objetos é dividir os problemas em partes menores. Ela é a melhor solução para representar p mundo real em termos de escrita em linguagem de programação.
+A ideia maio da orientação a objetos é dividir os problemas em partes menores. Ela é a melhor solução para representar o mundo real em termos de escrita em linguagem de programação.
 
 ## Programação Estrutural - Modelo Procedural
 
@@ -13,46 +13,15 @@ Nesse paradigma de programação o código era repetido muitas vezes , diferente
 
 ------
 
-## Definições sobre POO
-
-Cada classe determina os **métodos** e os **atributos** de seus objetos. Neste ponto entendemos que *as características* que descrevem  o objeto são também os valores do objeto, logo o reconhecemos como atributo.
-Além disso as ações que o objeto é capaz de executar é chamado de **método**. Já a **interface** é o conjunto de métodos que o objeto possui.
-
-### O objeto
-
-O objeto é considerado como algo físico, porém podemos ter outros que são abstratos como pagamentos, marcação de consultas etc. Ele é a instância de sua classe com atributos próprios. Outra definição de objeto que podemos descrever é:
-
-> "O objeto é qualquer estrutura modular que faz parte de algo. Podendo ser algo físico ou um conceito."
-
-Todo objeto tem em comum:
-
-- Atributos
-- Métodos
-- Estado
-
-Exemplo de objeto:
-
-| Classe Caneta(Tipos Primitivos) | Atributos | Métodos       |
-| ------------------------------- | --------- | ------------- |
-| string                          | Modelo    | AbrirCaneta() |
-| string                          | Cor       | Escrever()    |
-| float                           | Ponta     | Recarregar()  |
-| int                             | Carga     | Rabiscar()    |
-| bool                            | Tampada   | Tampar()      |
-
-Isso quer dizer que são os dados/informações que descrevem aquele objeto em específico. Um objeto é sempre um tipo de referência, pois ele armazena só o endereço dos dados.
-
-Também temos o **estado** de um objeto que é um conjunto de valores dos atributos em um dado momento.
-
-## Os  Pilares  da  POO
+## Os  Pilares  da  Programação Orientada a Objetos
 
 ------
 
-#### Abstração
+#### A Abstração
 
 É a habilidade de contextualizar problemas e características do mundo real, transformando-os para o domínio de sistemas de softwares.
 
-#### Encapsulamento
+#### O Encapsulamento
 
 É um mecanismo que permite proteger métodos e atributos de uma classe. A proteção oferecida no encapsulamento é baseada nos **modificadores de acesso**.
 
@@ -66,11 +35,11 @@ Também temos o **estado** de um objeto que é um conjunto de valores dos atribu
 
 Outro ponto que vale a pena citar é o termo de **modularização** que é um mecanismo que permite que o sistema seja dividido em partes entre si.
 
-#### Polimorfismo
+#### O Polimorfismo
 
 O polimorfismo quer dizer várias formas(de refazer nossos códigos, sistemas, etc) e também complementa pelos conceitos de herança e sobrecarga.
 
-#### Herança
+#### A Herança
 
 A herança é um mecanismo que possibilita a criação de novas classes por meio de uma hierarquia entre elas.
 
@@ -81,7 +50,7 @@ A herança é um mecanismo que possibilita a criação de novas classes por meio
 
 ##### Definições
 
-- **Classe-Mãe**: A classe principal é chamada de *superclasse* ou classe-mãe.
+- **Classe-Mãe**: A classe principal é chamada de *superclasse* ou *classe-mãe*.
 - **Classe-Filha**: A classe herdada é chamada de classe filha ou *sub-classe*.
 
 ##### Generalização
@@ -102,7 +71,7 @@ Generalização seria uma **abstração** entre classes que exercem funções pa
 
 ------
 
-## A classe
+#### A Classe
 
 A classe acaba sendo um molde para o objeto. Diferente das *structs* que guardam o valor em si, as classes guardam o endereço das informações. As variáveis constituem as propriedades e os métodos constituem as funções. Se for seguido da palavra reservada **void** ela não terá nenhum retorno.
 
@@ -132,3 +101,32 @@ Esse tipo de classe não pode ser instaciada. Funciona como uma classe genérica
 Serve para comparar objetos.
 
 Em fase de estudos...
+
+Cada classe determina os **métodos** e os **atributos** de seus objetos. Neste ponto entendemos que *as características* que descrevem  o objeto são também os valores do objeto, logo o reconhecemos como atributo.
+Além disso as ações que o objeto é capaz de executar é chamado de **método**. Já a **interface** é o conjunto de métodos que o objeto possui.
+
+#### O Objeto
+
+O objeto é considerado como algo físico, porém podemos ter outros que são abstratos como pagamentos, marcação de consultas etc. Ele é a instância de sua classe com atributos próprios. Outra definição de objeto que podemos descrever é:
+
+> "O objeto é qualquer estrutura modular que faz parte de algo. Podendo ser algo físico ou um conceito."
+
+Todo objeto tem em comum:
+
+- Atributos
+- Métodos
+- Estado
+
+Exemplo de objeto:
+
+| Classe Caneta(Tipos Primitivos) | Atributos | Métodos       |
+| ------------------------------- | --------- | ------------- |
+| string                          | Modelo    | AbrirCaneta() |
+| string                          | Cor       | Escrever()    |
+| float                           | Ponta     | Recarregar()  |
+| int                             | Carga     | Rabiscar()    |
+| bool                            | Tampada   | Tampar()      |
+
+Isso quer dizer que são os dados/informações que descrevem aquele objeto em específico. Um objeto é sempre um tipo de referência, pois ele armazena só o endereço dos dados.
+
+Também temos o **estado** de um objeto que é um conjunto de valores dos atributos em um dado momento.
