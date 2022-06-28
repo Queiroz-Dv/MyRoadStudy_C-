@@ -1,4 +1,4 @@
-# 🔮 My CSharp RoadStudy
+# 🔮CSharp RoadStudy
 
 ### 🐱‍💻 Objetivos e Metas
 Cada pasta trata-se de um resumo e estudo de caso feito na linguagem CSharp. O repositório estará em fase de desenvolvimento enquanto houver conteúdos a serem tratados. Meu intuito é compartilhar com a comunidade informações de forma simplificada e também reforçar meu aprendizado em programação com a linguagem CSharp.
@@ -38,7 +38,7 @@ Já as linguages de Baixo Nível é mais voltada os dispositovos pois envolve n�
 
 ## Tipos  de  Dados
 
-Também chamadas de fortemente tipadas, pois obrigam a especificar o tipo de dado da informação. Tem uma menor liberdade por outro lado tem maior otimização.  Um tipo de dado define o formato dele.
+Algumas linguagens são chamadas de **"fortemente tipadas"**, pois obrigam a especificar o tipo de dado da informação. Tem uma menor liberdade por outro lado tem maior otimização.  Além disso, um tipo de dado define o formato dele.
 
 ```c#
 int age = 18; // Ok
@@ -68,11 +68,11 @@ Código Gerenciado: significa que a sua execução depende de um gerenciador. Ta
 
 - *Class Library*: O resultado final é uma DLL - não possui interface
 
-- *Console Application*: O resultado final é uma aplicação que roda no terminal.
+- *Console Application*: O resultado final é uma aplicação que roda no terminal do windows(DOS)
 
 - *Projeto Web*: ASP.NET WEB, ASP.NET MVC, ASP.NET WebAPI
 
-- *Projetos Testes*: Microsoft Tests
+- *Projetos Testes*: Microsoft Tests, xUnit
 
 ## Principais comandos .NET
 
