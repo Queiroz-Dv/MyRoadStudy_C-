@@ -86,7 +86,7 @@ Assim como a classe os métodos devemos ser também estáticos.
 
 ### Classes Seladas
 
-Este tipo de classe impede que a mesma seja selada garantindo a proteção da classe.
+Este tipo de classe impede que a mesma seja herdada garantindo a proteção da classe.
 
 ### Interfaces
 
