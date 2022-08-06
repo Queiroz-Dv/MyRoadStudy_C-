@@ -2,7 +2,7 @@
 
 ------
 
-POO ou Programação Orientada a objetos é um paradigma da programação, que neste caso, é como estruturamos o nosso código.
+POO ou Programação Orientada a objetos é um <strong>paradigma da programação</strong>>, que neste caso, é como <i>estruturamos o nosso código</i>.
 A ideia maio da orientação a objetos é dividir os problemas em partes menores. Ela é a melhor solução para representar o mundo real em termos de escrita em linguagem de programação.
 
 ## Programação Estrutural - Modelo Procedural

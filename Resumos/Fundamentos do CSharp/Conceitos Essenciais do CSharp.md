@@ -2,9 +2,9 @@
 
 ## Bases Estruturais
 
-### Namespaces
+### O que são os Namespaces?
 
-Enquanto as pastas são as divisões físicas, os namespaces são as divisões lógicas. O ideal é que tenha apenas um namespace e uma classe por arquivo.
+Enquanto as pastas são as <i>divisões físicas</i>, os namespaces são as <i>divisões lógicas</i>. O ideal é que tenha apenas um namespace e uma classe por arquivo.
 Um namespace pode ser reutilizado e pode estar presente em diversos arquivos.
 
 Exemplo:
@@ -16,22 +16,22 @@ namespace Persistence
 }
 ```
 
-### Usings
+### O que são os Usings?
 
-As importações definem as bibliotecas que nposso programa irá utilizar.
+As importações definem as bibliotecas que posso programa irá utilizar.
 Para isso utilizamos a palavra reservada _using_.
 Ele serve para organizar nosso código em pastas e namespaces o que é fundamental.
 
-### Variáveis
+### O que são Variáveis?
 
 Uma variável é algo que utilizamos para armazenar uma informação.
-Significa que seu valor pode ser alterado a qualquer momento. Sempre que criamos uma variável, dizemos que estamos inicializando elas.
+Significa que seu valor pode ser alterado a qualquer momento. Sempre que criamos uma variável, quer dizer que estamos inicializando-as.
 
 - Podemos usar um tipo ou a palavra reservada _var_ para criar uma variável.
 
 - No CSharp o tipo vem sempre antes do nome da variável.
 
-- Se não informado o valor padrão será aplicado.
+- Se não informado, o valor padrão será aplicado.
 
 Exemplo:
 
@@ -42,7 +42,7 @@ var idade = 25; // Correto
 var idade; // Errado
 ```
 
-### Constantes
+### O que são constantes  Constantes?
 
 Diferente das variáveis as constantes não podem ser alteradas. Uma vez criadas somos obrigados a atribuir um valor para elas.
 A definição das constantes é dada pela palavra reservada _const_ antes do tipo
@@ -58,7 +58,7 @@ const var IDADE_MINIMA; // Errado
 
 - É comum o uso de constantes com letras maiúsculas.
 
-## Tipos Primitivos
+## O que são Tipos Primitivos?
 
 São conhecidos como _built-in types_, são tipos base cujo outros tipos irão derivar. Além disso são chamados de _Tipos de Valor_, pois armazenam o valor e não a referência para um item na memória.
 São classificados em:
@@ -70,7 +70,7 @@ São classificados em:
 
 ### Byte
 
-O typo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_.
+O tipo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_.
 
 ### Números Inteiros
 
@@ -106,7 +106,7 @@ Substitui o nome de um tipo. Será do tipo do primeiro valor em que ocorre sua a
 
 ### Object
 
-Tipo genérico que recebe qualquer valor ou objeto. Ele não possui ajuda do intelisense(Ajuda dos editores) por ser um tipo desconhecido. Recomenda-se evitar usá-.
+Tipo genérico que recebe qualquer valor ou objeto. Ele não possui ajuda do intelisense(Ajuda dos editores) por ser um tipo desconhecido. Recomenda-se evitar o seu uso.
 
 ### Nullabes Types
 

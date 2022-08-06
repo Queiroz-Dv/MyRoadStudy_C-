@@ -12,22 +12,21 @@
 <em>É composto por campos que especificam cada uma das informações que o compõem</em> <br><br>
 
 Toda estrutura de um registro tem um nome, e seus campos podem ser acessados pelo uso do ponto. 
-</li>
-</ul>
 <ul>
 	<li>
 			<strong>Listas</strong>: armazena dados de um determinado tipo em uma ordem específica. A lista tem <i>tamanho ajustável</i> em quanto arrays possuem tamanho físico.<br><br>
 			Além disso existe dois tipos de listas:
-		<ul>
-		
-			<li>
-					<strong>Listas Ligada</strong>: neste tipo existem os nós onde cada um dos nós conhece o valor que está armazenado em seu interior. É chamada de <q>lista ligada</q> pelos nós serem amarrados com a indicação de saber qual é o próximo nó.
-			</li><br>
-			
-			<li>
-					<strong>Listas Duplamente Ligada</strong>: neste tipo os nós sabem quem é o próximo elemento e também quem é o elemento anterio, o que permite a navegação reversa.
-			</li>
-			
-		</ul>
-	</li>
+    </li>
 </ul>
+
+```
+<li>
+	<strong>Listas Ligada</strong>: neste tipo existem os nós onde cada um dos nós conhece o valor que está armazenado em seu interior. É chamada de <q>lista ligada</q> pelos nós serem amarrados com a indicação de saber qual é o próximo nó.
+	</li><br>
+	
+	<li>
+			<strong>Listas Duplamente Ligada</strong>: neste tipo os nós sabem quem é o próximo elemento e também quem é o elemento anterio, o que permite a navegação reversa.
+	</li>
+	
+</ul>
+```
