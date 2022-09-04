@@ -13,3 +13,6 @@ Os atributos são divididos em duas classificações:
 | Fornece informações adicionais de um elemento. | Adiciona uma função ou interatividade a um elemento. |
 |         Não tem uma função interativa.         |                                                      |
 
+<h1>🔗 Tags importantes:</h1>
+
+<strong>H1 até H6:</strong> são tags de cabeçalhos usadas para marca partes importantes em um documento HTML.

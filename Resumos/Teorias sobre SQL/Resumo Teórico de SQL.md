@@ -23,11 +23,15 @@ Um SGBD tem como funcionalidade para auxiliar a manipular os dados dentro de um 
 
 ### Tipos de Dados SQL
 
-- CHAR: Este tipo guarda o tamanho físico de caracteres. Se tivermos um nome com cinco caracteres e colocarmos um CHAR de sessenta, ele guardará o nome e o resto das posições em branco.
-- VARCHAR2: Este pode variar para cada tamanho de caracteres inserido no banco.
-- NVARCHAR: Este suporta diferentes tipos de caracteres e é um dos mais usados.
-- BIT: Este tipo guarda zero e um pois funciona como falso e verdadeiro.
+- <strong>CHAR:</strong> Este tipo guarda o tamanho físico de caracteres. Se tivermos um nome com cinco caracteres e colocarmos um CHAR de sessenta, ele guardará o nome e o resto das posições em branco.
+- <strong>VARCHAR2:</strong> Este pode variar para cada tamanho de caracteres inserido no banco.
+- <strong>NVARCHAR:</strong> Este suporta diferentes tipos de caracteres e é um dos mais usados.
+- <strong>BIT:</strong> Este tipo guarda zero e um pois funciona como falso e verdadeiro.
 - NULL: O valor nulo é um valor que é indisponível, não atribuído.
+
+<h2>🎲 Tipos de Linguagem SQL</h2>
+
+
 
 ## Comandos  Básicos  SQL
 
