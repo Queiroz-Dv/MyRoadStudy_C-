@@ -57,3 +57,34 @@
         </session>
     </fieldset>
 </div>
+<br>
+
+<div>
+    <fieldset style="border-style: outset">
+        <legend  style="color: #00CED1">Projeto em Code First</legend>
+    <fieldset>
+        <legend style="color: #FFFAF0">Definir o modelo de entidades</legend>
+        <ul>
+        <li> Criar a classe definindo as propriedades que vão representar o meu domínio</li>
+        <li> Produto, Categoria, Cliente, Aluno, etc.</li>
+        </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="color: #FFFAF0">Definir a classe de contexto</legend>
+        <ul>
+        <li> <i style="color: #7FFFD4">Cria a classe que herda de</i> DbContext</li>
+        <li> <i style="color: #7FFFD4">Mapear as entidades para as tabelas via propriedades</i> DbSet</li>
+        <li><i style="color: #7FFFD4"> Usar o método</i> OnConfiguring<i style="color: #7FFFD4"> para definir o provedor e a string de conexcão</i></li>
+        </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="color: #FFFAF0">Usar o Migrations</legend>
+        <ul>
+        <li> add-migration</li>
+        <li> Update-database</li>
+        </ul>
+    </fieldset>
+    </fieldset>
+</div>
