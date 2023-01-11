@@ -57,8 +57,6 @@
         </session>
     </fieldset>
 </div>
-<br>
-
 <div>
     <fieldset style="border-style: outset">
         <legend  style="color: #00CED1">Projeto em Code First</legend>
@@ -88,3 +86,29 @@
     </fieldset>
     </fieldset>
 </div>
+
+## 🧭 Propriedades de Navegação
+
+Uma **propriedade de navegação** é definida na **entidade principal ou dependente** que contém uma referência para a entidade relacionada.
+
+```c#
+public class Autor 
+{
+    public int AutorId {get; set;}
+    public string Nome {get; set;}
+    public string Sobrenome {get; set;}
+    public ICollection<Livros> Livros {get; set;} // Propriedade de navegação de Coleção
+}
+```
+
+```c#
+public class Livro 
+{
+    public int LivroId {get; set;}
+    public string Titulo {get; set;}
+    public int AnoLancamento {get; set;}
+    public Autor Autor {get; set;} // Propriedade de navegação de Referência
+}
+```
+
+As propriedades de navegação permitem a **navegação da associação** entre os **tipos** via código:

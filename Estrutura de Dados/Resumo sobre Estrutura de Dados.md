@@ -18,15 +18,5 @@ Toda estrutura de um registro tem um nome, e seus campos podem ser acessados pel
 			Além disso existe dois tipos de listas:
     </li>
 </ul>
-
-```
-<li>
-	<strong>Listas Ligada</strong>: neste tipo existem os nós onde cada um dos nós conhece o valor que está armazenado em seu interior. É chamada de <q>lista ligada</q> pelos nós serem amarrados com a indicação de saber qual é o próximo nó.
-	</li><br>
-	
-	<li>
-			<strong>Listas Duplamente Ligada</strong>: neste tipo os nós sabem quem é o próximo elemento e também quem é o elemento anterio, o que permite a navegação reversa.
-	</li>
-	
-</ul>
-```
+- **Listas Ligada**: neste tipo existem os nós onde cada um dos nós conhece o valor que está armazenado em seu interior. É chamada de lista ligada pelos nós serem amarrados com a indicação de saber qual é o próximo nó.
+- **Listas Duplamente Ligada**: neste tipo os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
