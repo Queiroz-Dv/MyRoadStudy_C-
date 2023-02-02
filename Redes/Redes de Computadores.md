@@ -17,7 +17,21 @@ Por conta da necessidade devido ao aumento de dados enviados, surgiram então as
 
 
 ## 🔌 Topologia de Redes
+
 Topologia é a maneira de como os dispositivos estão organizados e aforma de como irão se conectar.
 
 - **Topologia em barramento**
-	
+	Nesta topologia existe um único cabo que é chamado de barramento, onde todos os computadores se conectam.
+	Além disso uma grande desvantagem é que se apenas um pc parar de funcionar, todos em diante perdem a conexão também, já que os computadores estariam em "fila".
+
+- **Topoligia Estrela**
+	Neste todos os dispositivos são conectados a um elemento central da rede que fica responsável por distribuir a conexão. 
+	Portanto, se um dispositivo parar os outros não serão afetados
+
+- **Topologia Malha** (*Mesh*)
+	A topologia em malha conecta um dispositivo a todos os outros da rede de forma ponto a ponto.
+
+
+## 🛠 Equipamentos de Rede
+
+**Placas de Rede** - é o dispositivo mais importante que consiste em realizar a conexão com a internet.  A placa de rede recebe os dados pelo drive da placa. Esses dados são montados no frame correspondente .
