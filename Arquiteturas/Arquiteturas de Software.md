@@ -68,9 +68,11 @@ A questão de quantas camadas seu projeto deve ter, quais nomes cada camada deve
 - **Camada de modelo**: Manterá a logica para interagir com o banco de dados
 - **Camada de persistência**: É onde estará o banco de dados.
 
+
+
 ### Estrutura MVC
 
-MVC é um padrão de arquitetura que significa **Model View Controller** . Poderíamos dizer que a arquitetura MVC é como uma simplificação da arquitetura de camadas, incorporando também o front-end (UI) da aplicação. Abaixo esta uma descrição para as três principais camadas.
+MVC é um padrão de *arquitetura* que significa **Model View Controller** . Poderíamos dizer que a arquitetura MVC é como uma **simplificação** da arquitetura de camadas, incorporando também o front-end (UI) da aplicação. Abaixo esta uma descrição para as três principais camadas.
 
 - **View**: A camada de exibição renderiza a interface do usuário.
 - **Controller**: A camada de controladores irá definir as rotas e a lógica de cada uma delas.
@@ -78,7 +80,7 @@ MVC é um padrão de arquitetura que significa **Model View Controller** . Poder
 
 ------
 
-# O que é Arquiteto de Software?
+# O que é  Arquiteto de Software?
 
 Um desenvolvedor especialista que projeta soluções de software desde o início, tomando decisões de alto nível sobre cada etapa do processo, incluindo padrões técnicos, ferramentas, princípios de design, plataformas a serem usadas etc. Liderando uma equipe de engenheiros para criar o produto final .
 
@@ -94,7 +96,23 @@ A arquitetura pode ser feita em vários “níveis” de abstrações. O nível 
 
 - **Nível Enterprise:** O nível mais alto de arquitetura. Concentre-se em várias soluções. Design abstrato de alto nível, que precisa ser detalhado por arquitetos de soluções ou aplicativos. A comunicação está em toda a organização.
 
-  
+  ------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Sistemas com arquitetura de n-camadas
 
