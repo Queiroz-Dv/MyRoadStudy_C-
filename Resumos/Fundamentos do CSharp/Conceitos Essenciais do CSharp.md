@@ -42,7 +42,7 @@ var idade = 25; // Correto
 var idade; // Errado
 ```
 
-### O que são constantes  Constantes?
+### O que são constantes?
 
 Diferente das variáveis as constantes não podem ser alteradas. Uma vez criadas somos obrigados a atribuir um valor para elas.
 A definição das constantes é dada pela palavra reservada _const_ antes do tipo
@@ -58,9 +58,11 @@ const var IDADE_MINIMA; // Errado
 
 - É comum o uso de constantes com letras maiúsculas.
 
-## O que são Tipos Primitivos?
+  ------
 
-São conhecidos como _built-in types_, são tipos base cujo outros tipos irão derivar. Além disso são chamados de _Tipos de Valor_, pois armazenam o valor e não a referência para um item na memória.
+  ## O que são Tipos Primitivos?
+
+São conhecidos como _built-in types, são tipos base cujo outros tipos irão derivar. Além disso são chamados de _Tipos de Valor_, pois armazenam o valor e não a referência para um item na memória.
 São classificados em:
 
 - Tipos Simples
@@ -68,11 +70,11 @@ São classificados em:
 - Estruturas
 - Tipos Nulos
 
-### Byte
+##### Byte
 
 O tipo byte é utilizado para representar um byte de fato. Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo que neste caso são chamados de _byte array_.
 
-### Números Inteiros
+##### Números Inteiros
 
 Números inteiros, ou sejam sem pontuação podem ser definidos pelos tipos:
 
@@ -238,24 +240,24 @@ static void Main(string[] args)
 
 ## Tipos de Referência e Tipos de Valor
 
-### Heap e Stack
+#### Heap e Stack
 
  A memória é dividida em duas partes, Heap e Stack.
  Heap serve para _armazenar dados_ já a Stack _armazena as referências_ para os dados
 
-### Value Types
+#### Value Types
 
 Quando armazenamos um valor, a memória é alocada então, nossa variável acessa este dado diretamente.Se assimilarmos uma variável do tipo de valor a outra o valor será copiado.
 
-### Reference Types
+#### Reference Types
 
  Armazenam o endereço do objeto que contém os dados, ou seja, eles não armazenam os dados em si. São armazenados em um local da memória chamado de Heap.
  Ao assimilar uma variável ele criará uma referência que aponta para a mesma informação. Quando não são mais utilizados são marcados para exclusão.
 
-## Structs
+#### Structs
 
 São tipos de dados estruturados, neste caso é apenas o esqueleto. Também pode armazenar apenas outros tipos de dados e é definido pela palavra _struct_. Eles são um tipo de valor, ou seja, eles ficam na stack.
 
-## Enums
+#### Enums
 
 São usados para fornecer uma melhor visualização do código. Substituem o uso de inteiros, além disso são usados em lista curtas e em dados fixos. Começam com a letra E maiúscula acompanhado do nome do enumerador.

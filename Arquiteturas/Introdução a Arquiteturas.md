@@ -175,20 +175,6 @@ This is just one example of how to implement a notification pattern in C# using 
 
 ------
 
-Em C#, a camada de serviço é uma parte da arquitetura de software que fica entre a camada de apresentação (como uma interface do usuário da web ou aplicativo móvel) e a camada de acesso a dados (como um banco de dados ou sistema de arquivos). A camada de serviço é responsável por implementar a lógica de negócios e coordenar a comunicação entre a camada de apresentação e a camada de acesso a dados.
-
-Aqui estão os principais recursos de uma camada de serviço em C#:
-
-1. Separação de interesses: A camada de serviço fornece uma separação limpa de interesses entre a camada de apresentação e a camada de acesso a dados. A camada de apresentação é responsável por exibir os dados para o usuário, enquanto a camada de acesso a dados é responsável por armazenar e recuperar os dados. A camada de serviço atua como um mediador entre essas camadas e implementa a lógica de negócios.
-2. Encapsulamento da lógica de negócios: A camada de serviço encapsula a lógica de negócios do aplicativo. Isso facilita a alteração da implementação da lógica de negócios sem afetar a camada de apresentação ou a camada de acesso a dados.
-3. Reutilização: A camada de serviço fornece um conjunto de serviços reutilizáveis que podem ser usados por várias camadas de apresentação. Isso reduz a duplicação de código e facilita a manutenção do aplicativo.
-4. Injeção de dependência: A camada de serviço pode ser implementada usando injeção de dependência. Isso facilita o teste de unidade do aplicativo, pois as dependências podem ser simuladas ou substituídas por implementações de teste.
-5. Tratamento de exceções: A camada de serviço é responsável por tratar as exceções que ocorrem durante a execução da lógica de negócios. Isso inclui registrar a exceção, fornecer uma mensagem de erro ao usuário e reverter todas as transações que foram iniciadas.
-
-No geral, a camada de serviço é uma parte importante de uma arquitetura de software bem projetada em C#. Ele fornece uma separação clara de preocupações, encapsula a lógica de negócios e fornece um conjunto de serviços reutilizáveis que podem ser usados por várias camadas de apresentação.
-
-------
-
 
 
 O padrão Repository é um padrão de design popular em C# usado para abstrair a camada de persistência de dados de um aplicativo. Ele fornece uma maneira de desacoplar a lógica do aplicativo da camada de acesso a dados, facilitando o gerenciamento e a manutenção de ambas as camadas de forma independente.
@@ -542,3 +528,22 @@ public class ProductService
 ```
 
 Neste exemplo, a classe ProductService tem métodos para adicionar, atualizar e recuperar produtos. A classe usa um objeto IProductRepository como uma dependência no construtor, o que permite interagir com a camada de acesso a dados.
+
+
+
+
+
+Em C#, a camada de serviço é uma parte da arquitetura de software que fica entre a camada de apresentação (como uma interface do usuário da web ou aplicativo móvel) e a camada de acesso a dados (como um banco de dados ou sistema de arquivos). A camada de serviço é responsável por implementar a lógica de negócios e coordenar a comunicação entre a camada de apresentação e a camada de acesso a dados.
+
+Aqui estão os principais recursos de uma camada de serviço em C#:
+
+1. Separação de interesses: A camada de serviço fornece uma separação limpa de interesses entre a camada de apresentação e a camada de acesso a dados. A camada de apresentação é responsável por exibir os dados para o usuário, enquanto a camada de acesso a dados é responsável por armazenar e recuperar os dados. A camada de serviço atua como um mediador entre essas camadas e implementa a lógica de negócios.
+2. Encapsulamento da lógica de negócios: A camada de serviço encapsula a lógica de negócios do aplicativo. Isso facilita a alteração da implementação da lógica de negócios sem afetar a camada de apresentação ou a camada de acesso a dados.
+3. Reutilização: A camada de serviço fornece um conjunto de serviços reutilizáveis que podem ser usados por várias camadas de apresentação. Isso reduz a duplicação de código e facilita a manutenção do aplicativo.
+4. Injeção de dependência: A camada de serviço pode ser implementada usando injeção de dependência. Isso facilita o teste de unidade do aplicativo, pois as dependências podem ser simuladas ou substituídas por implementações de teste.
+5. Tratamento de exceções: A camada de serviço é responsável por tratar as exceções que ocorrem durante a execução da lógica de negócios. Isso inclui registrar a exceção, fornecer uma mensagem de erro ao usuário e reverter todas as transações que foram iniciadas.
+
+No geral, a camada de serviço é uma parte importante de uma arquitetura de software bem projetada em C#. Ele fornece uma separação clara de preocupações, encapsula a lógica de negócios e fornece um conjunto de serviços reutilizáveis que podem ser usados por várias camadas de apresentação.
+
+------
+

@@ -1,4 +1,4 @@
-# 🔮CSharp RoadStudy
+# 🔮 CSharp RoadStudy
 
 ### 🐱‍💻 Objetivos e Metas
 Cada pasta trata-se de um resumo e estudo de caso feito na linguagem CSharp. O repositório estará em fase de desenvolvimento enquanto houver conteúdos a serem tratados. Meu intuito é compartilhar com a comunidade informações de forma simplificada e também reforçar meu aprendizado em programação com a linguagem CSharp.
@@ -7,7 +7,7 @@ Fique a vontade para explorar cada pastinha e projetos que já fiz por aqui! �
 
 <details>
     <summary>Projetos Realizados</summary>
-  
+
 ### ✔ Projetos de Baixa Complexidade
 - [Projeto de Calculadora](https://github.com/Queiroz-Dv/ProjectCalculator) 
 - [Projeto de Cronômetro](https://github.com/Queiroz-Dv/ProjectStopWatch_CSharp)
@@ -16,6 +16,7 @@ Fique a vontade para explorar cada pastinha e projetos que já fiz por aqui! �
 - [Programação Orientada a Objetos-Eng](https://github.com/Queiroz-Dv/OakAcademyStudy)
 - [Programação Orientada a Objetos-Pt-BR](https://github.com/Queiroz-Dv/ProjectPooSharp)
   
+
 </details>
 
 ## Linguagens de Programação
@@ -28,9 +29,9 @@ O processo de tradução se chama compilação. Cada linguagem tem seu compilado
 
 Ao enviar uma instrução para o computador estamos falando em nível de máquina, ou seja, uma linguagem de baixo nível. As linguagens mais modernas são consideradas de alto nível.
 
-As linguagens de Alto Nível estão mais próximas dos programadores do que dos dispositivos, devido à facilidade de entedimento.
+As linguagens de Alto Nível estão mais próximas dos programadores do que dos dispositivos, devido à facilidade de entendimento.
 
-Já as linguages de Baixo Nível é mais voltada os dispositovos pois envolve números e letras que são instruções diretas ao dispositivo. 
+Já as linguagens de Baixo Nível é mais voltada os dispositivos pois envolve números e letras que são instruções diretas ao dispositivo. 
 
 |                    Linguagens Compiladas                     |                   Linguagens Interpretadas                   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -62,13 +63,13 @@ int age = "18"; // Erro
 
 ## Como funciona?
 
-Código Gerenciado: significa que a sua execução depende de um gerenciador. Também é conhecido como **Runtime**. Neste caso, o Runtime  do C# se chama CLR(Common Language Runtime).
+**Código Gerenciado**: significa que a sua execução depende de um gerenciador. Também é conhecido como **Runtime**. Neste caso, o Runtime  do C# se chama CLR(Common Language Runtime).
 
 ## Tipos de Projeto
 
 - *Class Library*: O resultado final é uma DLL - não possui interface
 
-- *Console Application*: O resultado final é uma aplicação que roda no terminal do windows(DOS)
+- *Console Application*: O resultado final é uma aplicação que roda no terminal do Windows(DOS)
 
 - *Projeto Web*: ASP.NET WEB, ASP.NET MVC, ASP.NET WebAPI
 
