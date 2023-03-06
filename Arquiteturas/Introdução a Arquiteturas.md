@@ -116,6 +116,45 @@ E por fim, resolve o problema do acoplamento entre camadas definindo camadas a p
 
 - Todo código principal pode ser compilado e executado separadamente da infraestrutura.
 
+Onion Architecture é um padrão de design de software que enfatiza a separação de preocupações, dividindo o aplicativo em camadas organizadas em torno do domínio de negócios. A arquitetura foi introduzida pela primeira vez por Jeffrey Palermo em 2008 e desde então ganhou popularidade na comunidade de desenvolvimento de software.
+
+Em C#, a Onion Architecture pode ser implementada usando as seguintes camadas:
+
+1. Camada de Apresentação: Esta camada é responsável por lidar com as interações do usuário, incluindo entrada e saída. Ele inclui os componentes da interface do usuário (UI), como páginas da Web, formulários e controladores.
+2. Camada de Aplicação: Esta camada contém a lógica da aplicação, incluindo casos de uso e regras de negócios. Ele coordena a interação entre a camada de apresentação e a camada de domínio.
+3. Camada de Domínio: Esta camada contém a lógica de negócios principal e representa o domínio de negócios. Inclui entidades, objetos de valor e serviços de domínio.
+4. Camada de Infraestrutura: Esta camada fornece a infraestrutura técnica necessária para suportar o aplicativo. Inclui acesso a dados, cache, mensagens, registro e outros serviços de infraestrutura.
+
+A Onion Architecture promove um princípio de "inversão de dependência" em que os módulos de alto nível dependem de abstrações em vez de módulos de baixo nível. Isso garante que o aplicativo seja fracamente acoplado e fácil de manter e testar.
+
+Para implementar Onion Architecture em C#, você pode criar projetos separados para cada camada, com cada camada tendo uma responsabilidade clara e distinta. Você também pode usar estruturas de injeção de dependência como Autofac, Ninject ou Unity para gerenciar as dependências entre as camadas. Isso permite que você troque facilmente as implementações sem alterar a arquitetura geral do aplicativo.
+
+Aqui está um exemplo de como você pode estruturar seu aplicativo C# usando a Onion Architecture:
+
+- MyApplication.Domain
+  - Entities
+  - ValueObjects
+  - DomainServices
+  - Interfaces
+- MyApplication.Application
+  - UseCases
+  - Interfaces
+- MyApplication.Infrastructure
+  - Persistence
+  - Caching
+  - Messaging
+  - Logging
+  - Interfaces
+- MyApplication.Presentation
+  - Controllers
+  - Views
+  - Models
+  - Interfaces
+
+Nessa estrutura, cada camada tem seu próprio conjunto de interfaces que expõe à camada acima dela. Isso garante que cada camada esteja fracamente acoplada e possa ser substituída sem afetar as outras camadas.
+
+No geral, a Onion Architecture é um padrão poderoso e flexível que pode ajudá-lo a criar aplicativos robustos e sustentáveis em C#.
+
 ------
 
 
