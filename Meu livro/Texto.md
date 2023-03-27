@@ -1,5 +1,3 @@
-# Desenvolvimento de Softwares com DDD e  TDD
-
 ## O que é a abordagem DDD?
 
 O Domain-Driven Design (DDD) é uma abordagem para desenvolvimento de software que **enfatiza o domínio** do problema e as **regras de negócio**, em vez de apenas se concentrar na implementação técnica. 
