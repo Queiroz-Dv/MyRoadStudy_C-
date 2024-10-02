@@ -1,0 +1,1 @@
+node inspect dist/index.js
