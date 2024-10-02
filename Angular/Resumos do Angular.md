@@ -1,30 +1,43 @@
-<h1>💻 Angula 2+</h1>
+<h1>💻 Resumos sobre o Angular</h1>
 
-Angula é uma plataforma de aplicações web de código aberto baseado em TypeScript.
+<div>
+  <p>Angula é uma plataforma de aplicações web de código aberto baseado em TypeScript.</p>
 
-Liderado pelo Google, vem recebendo ajuda de comunidades de desenvolvedores e corporações.
+  <p>É um framework liderado pelo Google, vem recebendo ajuda de comunidades de desenvolvedores e corporações.</p>
+</div>
+<hr>
+
+<h2> Realizando o setup de instalação do Angular</h2>
+
+Para utilizarmos o Angular é necessário a instalação do NodeJs e também do NVM para navergamos entre as versões do Node
+
+<hr>
 
 <h2>🤔 Compreendendo Angular</h2>
 
-- Componentes;
-- Diretivas;
-- Serviços
-- Módulos.
+As principais estruturas do angular são:
+<ul>
+  <li>Componentes</li>
+  <li>Diretivas</li>
+  <li>Serviços</li>
+  <li>Módulos</li>
+</ul>
 
-Entre outros detalhes.
+Abaixo descrevemos melhor sobre essas estruturas.
 
 <h2> 🧩 Componentes </h2>
 
-Uma aplicação Angular é baseada em componentes. Nós podemos encapsular comportamentos e regras da interface, tornando a criação de aplicações algo mais simples. 
+Uma aplicação Angular é baseada em <b>componentes</b>. Nós podemos encapsular comportamentos e regras da interface, tornando a criação de aplicações algo mais simples. 
 
-Além disso, um componente pode encapsular outros componentes. Componentes permitem dividir a UI em partes independentes, reutilizáveis.
+Além disso, um componente pode encapsular outros componentes. Eles permitem dividir a UI em partes independentes, reutilizáveis.
 
-Trata cada parte da aplicação como um bloco isolado, livre de outras dependências externas.
+Por isso cada parte da aplicação é tratada como um bloco isolado, livre de outras dependências externas.
 
 <h2>🕔 Ciclo de Vida </h2>
 
 No Angular, cada componente tem um ciclo de vida, vários estágios diferentes pelos quais ele passa. Como cada componente é uma classe TS, todos eles devem conter um método construtor.
 
+Alguns desses ciclos são:
 <h3> 1. ngOnInit() </h3>
 
 Este evento é inicializado após o Angular exibir pela primeira vez as propriedades vinculadas aos dados ou quando o componente foi inicializado. 
